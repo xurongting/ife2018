@@ -1,0 +1,58 @@
+*　{
+	margin: 0;
+	padding: 0;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, li, fieldset, form, label, input, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, article, aside, audio, canvas, figure, footer, header, mark, menu, nav, section, time, video { margin: 0; padding: 0; }
+
+header {
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	height: 100px;
+	padding-left: 20px;
+	background-color: #666;
+	line-height: 100px;
+}
+section {
+	border-bottom: 1px solid #ddd;
+}
+section:before,
+section:after {
+    content: " ";
+    display: table;
+}
+section:after {
+    clear: both;
+}
+section p {
+	float: left;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #ddd;
+	border-bottom: 1px solid #fff;
+}
+div,
+address,
+dl {
+	padding: 20px;
+	height: 60px;
+	margin-left: 150px;
+}
+.info span {
+	padding: 0 40px 0 16px;
+}
+address {
+	font-style: normal;
+}
+address span,
+address a {
+	padding: 0 40px 0 16px;
+}
+dl dt {
+	font-weight: 700;
+	float: left;
+}
