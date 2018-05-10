@@ -72,19 +72,25 @@ header {
 	margin-top: 20px;
 	border-bottom: 1px solid #ccc;
 }
+.main_nav .wrap {
+	margin-bottom: -1px;
+}
 .main_nav a {
 	display: inline-block;
 	width: 100px;
 	height: 60px;
 	text-align: center;
-	line-height: 60px; 
+	line-height: 70px; 
 	color: #111;
-	/*border-radius: 20px;*/
-	border-top: 1px solid #ccc;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+	border-radius: 20px 20px 0 0;
+	border: 1px solid #ccc;
 	font-size: 16px;
+	background-color: #eee;
 	text-decoration: none;
+}
+.main_nav a.active {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
 }
 .main {
 	display: flex;
@@ -94,7 +100,7 @@ header {
 	padding-bottom: 10px;
 }
 .main>div {
-	flex: 1 0;
+	flex: auto;
 	margin-top: 10px;
 	margin-right: 10px;
 	padding: 80px;
