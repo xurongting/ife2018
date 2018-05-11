@@ -33,7 +33,10 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
+}
+h2 {
+  margin: 0;
 }
 
 /* Grouping content
@@ -69,6 +72,8 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: rgba(255,255,255,.3);
 }
 
 /**
