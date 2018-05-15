@@ -23,6 +23,7 @@ html {
 body {
     height: 100%;
     padding-left: 350px;
+    overflow: hidden;
     font-family: 'ProximaNova';
 }
 
@@ -163,6 +164,7 @@ body {
     border-radius: 10px;
     text-align: center;
     line-height: 24px;
+    margin: 6px 0;
     background-color: #1b93ec;
 }
 
@@ -190,6 +192,7 @@ body {
     width: 24px;
     height: 24px;
     float: right;
+    margin: 6px 0;
     background: url(../img/warning.png);
 }
 
@@ -233,6 +236,7 @@ body {
     float: left;
     width: 100%;
     height: 100%;
+    overflow: auto;
 }
 
 
@@ -251,11 +255,13 @@ body {
 .messages_people {
     position: absolute;
     top: 0;
+    height: 58px;
     right: 30px;
     padding: 11px 0;
 }
 
 .messages_people_img {
+    height: 58px;
     float: left;
     position: relative;
     margin-right: 10px;
@@ -291,7 +297,8 @@ body {
 
 .messages_people_menu {
     float: right;
-    margin-top: -5px;
+    margin-top: -10px;
+    height: 58px;
 }
 
 .messages_people_menu .dropdown {
@@ -307,13 +314,13 @@ body {
 .main_left {
     float: left;
     width: 400px;
+    border-right: 1px solid #e6e9ec;
 }
 
 
 /* 右边自适应宽度 */
 
 .main_right {
-    border-left: 1px solid #e6e9ec;
     margin-left: 400px;
 }
 
@@ -403,8 +410,7 @@ body {
 
 .main_right_toolbar {
     height: 72px;
-    padding-left: 30px;
-    padding-left: 30px;
+    padding: 0 30px;
     border-bottom: 1px solid #e6e9ec;
 }
 
@@ -528,6 +534,7 @@ body {
 .main_right_oldday {
     position: relative;
     padding: 25px 30px;
+    height: 300px;
 }
 
 .main_right_oldday img {
@@ -569,6 +576,14 @@ body {
     background-color: #fff;
 }
 
+.mrot_img {
+    margin: 17px 0;
+}
+
+.mrot_img img {
+    margin-right: 13px;
+}
+
 .main_right_message {
     position: relative;
     padding: 25px 30px;
@@ -608,4 +623,36 @@ body {
     margin-left: 5px;
     font-size: 14px;
     color: rgb(127, 143, 164);
+}
+
+.main_right_message .btn {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(223, 227, 233);
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+    margin-top: 25px;
+}
+
+.main_right_message .btn input {
+    font-size: 14px;
+    color: rgb(88, 93, 104);
+    line-height: 1.4;
+    width: calc(100% - 57px);
+    height: 53px;
+    border: none;
+    margin: -10px 0 0 -4px;
+}
+
+.main_right_message .btn button {
+    background-image: -moz-linear-gradient( 90deg, rgb(241, 243, 247) 0%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(241, 243, 247) 0%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(241, 243, 247) 0%, rgb(255, 255, 255) 100%);
+    width: 56px;
+    height: 56px;
+    border-style: none;
+    border-right: 1px solid rgb(206, 208, 218);
+    color: rgb(159, 169, 186);
+    font-size: 28px;
 }
