@@ -9,18 +9,9 @@
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="renderer" content="ie-stand">
-    <title>PC端HTML模版</title>
-    <!-- S DNS预解析 -->
-    <!-- <link rel="dns-prefetch" href=""> -->
-    <!-- E DNS预解析 -->
-    <!-- S 线上样式页面片，开发请直接取消注释引用 -->
-    <!-- #include virtual="" -->
-    <!-- E 线上样式页面片 -->
-    <!-- S 本地调试，根据开发模式选择调试方式，请开发删除 -->
+    <title>task08</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <!-- /本地调试方式 -->
-    <!-- E 本地调试 -->
 </head>
 
 <body class="clearfix">
@@ -33,7 +24,7 @@
         </div>
         <div class="setting_icon">
             <a href="javascript:viod(0)" class="squ"></a>
-            <a href="javascript:viod(0)" id="setting"></a>
+            <a href="javascript:viod(0)"></a>
         </div>
     </div>
     <div class="menu">
@@ -91,14 +82,14 @@
                 <i class="item_setting"></i>
             </div>
             <ul>
-                <li>
+                <li class="clearfix">
                     <a href="javascript:void(0)">Messages</a>
                     <strong class="num">54</strong>
                 </li>
-                <li class="clearfix">
+                <li>
                     <a href="javascript:void(0)">Connections</a>
                 </li>
-                <li>
+                <li class="clearfix">
                     <a href="javascript:void(0)">Integrations</a>
                     <i class="warning"></i>
                 </li>
@@ -237,7 +228,7 @@
                 </ul>
             </div>
             <div class="main_right">
-                <div class="main_right_toolbar">
+                <div class="main_right_toolbar clearfix">
                     <div class="main_right_toolbar_name">
                         <span>Bessie Berry</span><i></i>
                     </div>
@@ -288,15 +279,17 @@
                                 </p>
                             </div>
                         </li>
-                        <li>
+                        <li class="clearfix">
                             <img src="img/img_main_people_8.png" alt="">
                             <div class="txt">
                                 <p class="name">Jordan Jackson<span>8:31 AM</span></p>
                                 <p>I pay for the 4Mb/sec down, 512 Kb/sec up service from O2, and haven't had any problems. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm
                                     doing on it. I max out at about 3 Mb/sec down, and 350 Kb/sec up. Probably because of a noisy telephone line, not because I'm being throttled. When my uploads go over 25 KB/sec (note, bytes, not bits), my download speed
                                     suffers. This is expected, as downloads require upload bandwidth as well. </p>
-                                <img src="img/img_main_oldday_1.png" alt="">
-                                <img src="img/img_main_oldday_2.png" alt="">
+                                <div class="mrot_img">
+                                    <img src="img/img_main_oldday_1.png" alt="">
+                                    <img src="img/img_main_oldday_3.png" alt="">
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -309,6 +302,10 @@
                             <div class="txt">
                                 <p class="name">Bessie Berry<span>8:31 AM</span></p>
                                 <p>I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. </p>
+                            </div>
+                            <div class="btn">
+                                <button>+</button>
+                                <input type="text" placeholder="Well, kinda both :) but more of that second option, i`ve seen many systems infected and crawling with">
                             </div>
                         </li>
 
